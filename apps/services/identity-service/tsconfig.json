@@ -1,0 +1,26 @@
+{
+  "extends": "../../../tsconfig.base.json",
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ES2023",
+
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    "isolatedModules": true,
+    "incremental": true,
+
+    "declaration": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": ".",
+
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+
+    "strictPropertyInitialization": false,
+    "types": ["vitest/globals", "node"]
+  }
+}

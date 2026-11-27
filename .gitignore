@@ -34,3 +34,18 @@ Thumbs.db
 # Temporary files
 tmp/
 temp/
+
+# Generated code
+**/src/generated/
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# Framework and tool caches
+.cache/
+.turbo/
+.vite/
+# Generated AI coding-agent files
+**/.agents/
+**/.claude/
+**/.windsurf/
